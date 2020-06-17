@@ -4,6 +4,7 @@
             [find-deps.search :as search]
             [find-deps.rank :as rank]
             [clojure.string :as str]
+            [clojure.pprint]
             [clojure.java.io :as io])
   (:import (java.io InputStream)))
 
